@@ -60,13 +60,14 @@
 //   return getData(url);
 // };
 
+const TEST_URL = "http://localhost:3001/getData/";
 const API_URL =
   "https://port-0-noona-music-server-2aat2cluv6amup.sel5.cloudtype.app/getData";
 const spotifyURL = `https://api.spotify.com/v1/`;
 
 export const getData = async (url) => {
   try {
-    const response = await fetch(API_URL, {
+    const response = await fetch(TEST_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -74,6 +75,7 @@ export const getData = async (url) => {
       body: JSON.stringify({ url: url }),
     });
     const data = await response.json();
+    console.log(data);
     return data;
   } catch (error) {
     console.log(error);

@@ -1,6 +1,6 @@
 # 🎵 Music
 
-<!-- gif 자리 -->
+![Alt 텍스트](image/readme-sample.gif)
 
 <hr>
 
