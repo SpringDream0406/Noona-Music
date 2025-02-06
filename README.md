@@ -4,7 +4,7 @@
 
 <hr>
 
-## 🕹️ 데모 : [누나 플레이어 데모](https://noona-music.netlify.app/)
+## 🕹️ 데모 : ~~[누나 플레이어 데모](https://noona-music.netlify.app/)~~
 
 <hr>
 
